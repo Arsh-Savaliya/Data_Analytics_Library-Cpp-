@@ -1,21 +1,20 @@
-#include "dal/MeanAnalyzer.h"
+#include "dal/SumAnalyzer.h"
 using namespace std;
 
 namespace dal {
 
-double MeanAnalyzer::analyze(const ColumnBase& column) const {
+double SumAnalyzer::analyze(const ColumnBase& column) const {
     const vector<double> numbers = values(column);
 
     double total = 0.0;
     for (double number : numbers) {
         total += number;
     }
-
-    return total / static_cast<double>(numbers.size());
+    return total;
 }
 
-string MeanAnalyzer::name() const {
-    return "mean";
+string SumAnalyzer::name() const {
+    return "sum";
 }
 
 } // namespace dal
