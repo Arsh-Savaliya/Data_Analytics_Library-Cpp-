@@ -1,5 +1,4 @@
 #pragma once
-
 #include "dal/ColumnBase.h"
 
 #include <ostream>

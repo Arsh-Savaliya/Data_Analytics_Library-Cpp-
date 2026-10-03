@@ -1,6 +1,5 @@
 #include "dal/IAnalyzer.h"
 #include "dal/exceptions.h"
-
 #include <cstddef>
 
 namespace dal {

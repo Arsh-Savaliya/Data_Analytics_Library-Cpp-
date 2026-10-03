@@ -1,5 +1,4 @@
 #include "dal/Visualizer.h"
-
 #include <stdexcept>
 
 namespace dal {

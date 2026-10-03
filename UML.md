@@ -1,7 +1,7 @@
 # Data Analytics Library: Class Diagram
 
 ```mermaid
-classDiagram
+classDiagram 
     class ColumnBase {
       <<abstract>>
       +getName() string

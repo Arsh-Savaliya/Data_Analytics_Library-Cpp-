@@ -1,5 +1,4 @@
 #include "dal/IAnalyzer.h"
-
 #include <stdexcept>
 
 namespace dal {

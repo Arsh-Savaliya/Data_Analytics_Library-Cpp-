@@ -1,5 +1,5 @@
 # Team contracts
-
+ 
 All public declarations live under `include/dal/`; implementations and the demo live under `src/`.
 
 - **Person A — Core Data:** owns `include/dal/ColumnBase.h`, `include/dal/Column.h`, `include/dal/DataSet.h`, and `include/dal/exceptions.h`.
