@@ -82,6 +82,10 @@ int main() {
 
 The full example is in `demo/main.cpp`. It loads the sample, prints the original table, filters and selects rows, calculates summaries, renders a histogram and category chart, and exports the result through a `Pipeline`.
 
+## Demo menu
+
+Run the demo and enter a menu number to view the table, summary, GPA histogram, city bar chart, GPA box summary, or correlation matrix. Enter `0` to exit.
+
 ## UML class diagram
 
 ```mermaid
