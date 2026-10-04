@@ -26,7 +26,6 @@ add_library(dal
     src/AnalyzerDecorator.cpp
     src/CorrelationMatrixViz.cpp
     src/CommandShell.cpp
-    src/ComparisonFilter.cpp
     src/AndFilter.cpp
     src/OrFilter.cpp
     src/NotFilter.cpp
